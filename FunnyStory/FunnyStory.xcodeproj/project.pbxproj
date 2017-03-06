@@ -55,7 +55,6 @@
 		BB568BC31E6C56F900D5F76E /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		BB568BC51E6C570600D5F76E /* FavouriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteController.swift; sourceTree = "<group>"; };
 		BB568BC71E6C571200D5F76E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
-		BB568BC91E6C57F800D5F76E /* FunnyPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunnyPrefix.pch; sourceTree = "<group>"; };
 		BB568BCB1E6C59C800D5F76E /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		BB568BCD1E6C62F500D5F76E /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +125,6 @@
 			children = (
 				BB568BA51E6C516E00D5F76E /* FunnyStoryTests.swift */,
 				BB568BA71E6C516E00D5F76E /* Info.plist */,
-				BB568BC91E6C57F800D5F76E /* FunnyPrefix.pch */,
 			);
 			path = FunnyStoryTests;
 			sourceTree = "<group>";
@@ -572,6 +570,7 @@
 				BB568BB71E6C516E00D5F76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB568BB81E6C516E00D5F76E /* Build configuration list for PBXNativeTarget "FunnyStoryTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +579,7 @@
 				BB568BBA1E6C516E00D5F76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB568BBB1E6C516E00D5F76E /* Build configuration list for PBXNativeTarget "FunnyStoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +588,7 @@
 				BB568BBD1E6C516E00D5F76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
