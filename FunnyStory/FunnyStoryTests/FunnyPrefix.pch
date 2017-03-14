@@ -1,0 +1,93 @@
+//
+//  FunnyPrefix.pch
+//  FunnyStory
+//
+//  Created by Duan Nguyen on 3/5/17.
+//  Copyright © 2017 Duan Nguyen. All rights reserved.
+//
+
+#ifndef FunnyPrefix_h
+#define FunnyPrefix_h
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#pragma mark - Delegate
+//-
+#define myAppDelegate                               ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#pragma mark - Directory
+//-
+#define HOMEDIRECTORY                               [[NSBundle mainBundle] resourcePath]
+#define DOCUMENTDIRECTORY                           [NSHomeDirectory() stringByAppendingString:@"/Documents/"]
+#define AUDIODIRECTORY                           [NSHomeDirectory() stringByAppendingString:@"/Documents/Audio/"]
+#define LIBRARY_CATCHES_DIRECTORY                   [NSHomeDirectory() stringByAppendingString:@"/Library/Caches/"]
+#define SQLITE_DIRECTORY                            [NSHomeDirectory() stringByAppendingString:@"/Library/Caches/database/"]
+#define TEMPDIRECTORY                               [NSHomeDirectory() stringByAppendingString:@"/tmp/"]
+
+
+#pragma mark - LOCALIZED
+//-
+#define LS(s)                                       NSLocalizedString(s, nil)
+
+
+#pragma mark - DEVICE
+//-
+#define IS_IPAD                                     (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE                                   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_4                                 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0f)
+#define IS_IPHONE_5                                 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+#define IS_IPHONE_6                                 ( [[UIScreen mainScreen] bounds ].size.height == 667 )
+#define IS_IPHONE_6PLUS                             ( [[UIScreen mainScreen] bounds ].size.height == 736 )
+
+
+#pragma mark - SIZE
+//-
+#define SCREEN_FRAME                                 [UIScreen mainScreen].bounds
+#define SCREEN_SIZE                                 [UIScreen mainScreen].bounds.size
+#define SCREEN_CONSTANT                             [UIScreen mainScreen].bounds.size.width / 320.0f
+#define IPHONE5_ADJUST(y)                           (IS_IPHONE_5 ? (y + 88) : y)
+
+
+#pragma mark - COLOR
+//-
+#define COLOR_RGB(r, g, b)                          [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define COLOR_RGBA(r, g, b, a)                      [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define COLOR(rgbValue)                             [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 alpha:1.0]
+
+
+#pragma mark - FONT
+//-
+#define FONT_REGULAR(s)                             [UIFont fontWithName:@"HelveticaNeue" size:(s)]
+#define FONT_LIGHT(s)                               [UIFont fontWithName:@"HelveticaNeue-Light" size:(s)]
+#define FONT_BOLD(s)                                [UIFont fontWithName:@"HelveticaNeue-Bold" size:(s)]
+#define FONT_MEDIUM(s)                              [UIFont fontWithName:@"HelveticaNeue-Medium" size:(s)]
+#define FONT(n, s)                                  [UIFont fontWithName:(n) size:(s)]
+
+
+#pragma mark - DEBUG
+//-
+#ifdef DEBUG
+#   define DLog(fmt, ...)                           NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define ALog(fmt, ...)                              NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
+#pragma mark - IOS VERSION
+//-
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+
+#endif /* FunnyPrefix_h */

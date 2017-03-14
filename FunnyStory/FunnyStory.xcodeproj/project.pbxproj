@@ -7,6 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA8B794611ED092DB46729A /* Pods_FunnyStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FE8E1FEC5600214A4AD858 /* Pods_FunnyStory.framework */; };
+		45211868CA7192DA4AAA5872 /* Pods_FunnyStoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1567A97B981878386EBB7B /* Pods_FunnyStoryUITests.framework */; };
+		846A41F21E753FD5002D18F4 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A41F11E753FD5002D18F4 /* StoryModel.swift */; };
+		846A41F41E75404D002D18F4 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A41F31E75404D002D18F4 /* HomeCell.swift */; };
+		846A41F81E75420A002D18F4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A41F71E75420A002D18F4 /* CategoryCell.swift */; };
+		846A41FA1E7542DB002D18F4 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A41F91E7542DB002D18F4 /* CategoryModel.swift */; };
+		846A41FC1E7545AC002D18F4 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A41FB1E7545AC002D18F4 /* FavouriteCell.swift */; };
+		84D524611E7782BD005A3AB4 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D524601E7782BD005A3AB4 /* DatabaseHelper.swift */; };
+		84D524651E7783E6005A3AB4 /* truyencuoihay.db in Resources */ = {isa = PBXBuildFile; fileRef = 84D524641E7783E6005A3AB4 /* truyencuoihay.db */; };
+		84D5248D1E77AEE2005A3AB4 /* background_story.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246A1E77AEE2005A3AB4 /* background_story.png */; };
+		84D5248E1E77AEE2005A3AB4 /* congai.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246B1E77AEE2005A3AB4 /* congai.PNG */; };
+		84D5248F1E77AEE2005A3AB4 /* congnghe.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246C1E77AEE2005A3AB4 /* congnghe.png */; };
+		84D524901E77AEE2005A3AB4 /* congso.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246D1E77AEE2005A3AB4 /* congso.png */; };
+		84D524911E77AEE2005A3AB4 /* contrai.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246E1E77AEE2005A3AB4 /* contrai.PNG */; };
+		84D524921E77AEE2005A3AB4 /* dangian.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5246F1E77AEE2005A3AB4 /* dangian.png */; };
+		84D524931E77AEE2005A3AB4 /* doanhnhan.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524701E77AEE2005A3AB4 /* doanhnhan.png */; };
+		84D524941E77AEE2005A3AB4 /* giadinh.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524711E77AEE2005A3AB4 /* giadinh.png */; };
+		84D524951E77AEE2005A3AB4 /* giaothong.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524721E77AEE2005A3AB4 /* giaothong.PNG */; };
+		84D524961E77AEE2005A3AB4 /* hocsinh.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524731E77AEE2005A3AB4 /* hocsinh.png */; };
+		84D524971E77AEE2005A3AB4 /* ic_category.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D524741E77AEE2005A3AB4 /* ic_category.jpg */; };
+		84D524981E77AEE2005A3AB4 /* ic_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524751E77AEE2005A3AB4 /* ic_delete.png */; };
+		84D524991E77AEE2005A3AB4 /* ic_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524761E77AEE2005A3AB4 /* ic_favorite.png */; };
+		84D5249A1E77AEE2005A3AB4 /* ic_favorite_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524771E77AEE2005A3AB4 /* ic_favorite_selected.png */; };
+		84D5249B1E77AEE2005A3AB4 /* ic_fullsize.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524781E77AEE2005A3AB4 /* ic_fullsize.png */; };
+		84D5249C1E77AEE2005A3AB4 /* ic_fun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D524791E77AEE2005A3AB4 /* ic_fun.jpg */; };
+		84D5249D1E77AEE2005A3AB4 /* ic_img_splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247A1E77AEE2005A3AB4 /* ic_img_splash_logo.png */; };
+		84D5249E1E77AEE2005A3AB4 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247B1E77AEE2005A3AB4 /* ic_launcher.png */; };
+		84D5249F1E77AEE2005A3AB4 /* ic_not_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247C1E77AEE2005A3AB4 /* ic_not_favorite.png */; };
+		84D524A01E77AEE2005A3AB4 /* ic_tabbar_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247D1E77AEE2005A3AB4 /* ic_tabbar_category.png */; };
+		84D524A11E77AEE2005A3AB4 /* ic_tabbar_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247E1E77AEE2005A3AB4 /* ic_tabbar_favorite.png */; };
+		84D524A21E77AEE2005A3AB4 /* ic_tabbar_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5247F1E77AEE2005A3AB4 /* ic_tabbar_home.png */; };
+		84D524A31E77AEE2005A3AB4 /* khac.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524801E77AEE2005A3AB4 /* khac.PNG */; };
+		84D524A41E77AEE2005A3AB4 /* khoahoc.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524811E77AEE2005A3AB4 /* khoahoc.PNG */; };
+		84D524A51E77AEE2005A3AB4 /* nghenghiep.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524821E77AEE2005A3AB4 /* nghenghiep.PNG */; };
+		84D524A61E77AEE2005A3AB4 /* nhahang.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524831E77AEE2005A3AB4 /* nhahang.PNG */; };
+		84D524A71E77AEE2005A3AB4 /* sayxin.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524841E77AEE2005A3AB4 /* sayxin.PNG */; };
+		84D524A81E77AEE2005A3AB4 /* tamquoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524851E77AEE2005A3AB4 /* tamquoc.png */; };
+		84D524A91E77AEE2005A3AB4 /* tho_ca.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524861E77AEE2005A3AB4 /* tho_ca.PNG */; };
+		84D524AA1E77AEE2005A3AB4 /* tieulam.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524871E77AEE2005A3AB4 /* tieulam.png */; };
+		84D524AB1E77AEE2005A3AB4 /* tinhyeu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D524881E77AEE2005A3AB4 /* tinhyeu.png */; };
+		84D524AC1E77AEE2005A3AB4 /* tongiao.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D524891E77AEE2005A3AB4 /* tongiao.PNG */; };
+		84D524AD1E77AEE2005A3AB4 /* trangquynh.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84D5248A1E77AEE2005A3AB4 /* trangquynh.PNG */; };
+		84D524AE1E77AEE2005A3AB4 /* vova.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5248B1E77AEE2005A3AB4 /* vova.png */; };
+		84D524AF1E77AEE2005A3AB4 /* yte.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5248C1E77AEE2005A3AB4 /* yte.png */; };
+		AE027161FCB432920139740D /* Pods_FunnyStoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21915E3E381FACE479AA1D /* Pods_FunnyStoryTests.framework */; };
 		BB568B911E6C516E00D5F76E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB568B901E6C516E00D5F76E /* AppDelegate.swift */; };
 		BB568B961E6C516E00D5F76E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB568B941E6C516E00D5F76E /* Main.storyboard */; };
 		BB568B981E6C516E00D5F76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB568B971E6C516E00D5F76E /* Assets.xcassets */; };
@@ -39,6 +84,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E0C1B371CF6EA401BEF2DA /* Pods-FunnyStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStory/Pods-FunnyStory.debug.xcconfig"; sourceTree = "<group>"; };
+		253FB42AAF108B51A96A881B /* Pods-FunnyStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStory/Pods-FunnyStory.release.xcconfig"; sourceTree = "<group>"; };
+		2F1567A97B981878386EBB7B /* Pods_FunnyStoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyStoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB960D02F1AE90C3FDC8BB3 /* Pods-FunnyStoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStoryUITests/Pods-FunnyStoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45FE8E1FEC5600214A4AD858 /* Pods_FunnyStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846A41F11E753FD5002D18F4 /* StoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		846A41F31E75404D002D18F4 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeCell.swift; path = FunnyStory/Cell/HomeCell.swift; sourceTree = SOURCE_ROOT; };
+		846A41F71E75420A002D18F4 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = FunnyStory/Cell/CategoryCell.swift; sourceTree = SOURCE_ROOT; };
+		846A41F91E7542DB002D18F4 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		846A41FB1E7545AC002D18F4 /* FavouriteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavouriteCell.swift; path = FunnyStory/Models/FavouriteCell.swift; sourceTree = SOURCE_ROOT; };
+		84D524601E7782BD005A3AB4 /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		84D524641E7783E6005A3AB4 /* truyencuoihay.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = truyencuoihay.db; sourceTree = "<group>"; };
+		84D5246A1E77AEE2005A3AB4 /* background_story.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_story.png; sourceTree = "<group>"; };
+		84D5246B1E77AEE2005A3AB4 /* congai.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congai.PNG; sourceTree = "<group>"; };
+		84D5246C1E77AEE2005A3AB4 /* congnghe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congnghe.png; sourceTree = "<group>"; };
+		84D5246D1E77AEE2005A3AB4 /* congso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congso.png; sourceTree = "<group>"; };
+		84D5246E1E77AEE2005A3AB4 /* contrai.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contrai.PNG; sourceTree = "<group>"; };
+		84D5246F1E77AEE2005A3AB4 /* dangian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangian.png; sourceTree = "<group>"; };
+		84D524701E77AEE2005A3AB4 /* doanhnhan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doanhnhan.png; sourceTree = "<group>"; };
+		84D524711E77AEE2005A3AB4 /* giadinh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giadinh.png; sourceTree = "<group>"; };
+		84D524721E77AEE2005A3AB4 /* giaothong.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giaothong.PNG; sourceTree = "<group>"; };
+		84D524731E77AEE2005A3AB4 /* hocsinh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hocsinh.png; sourceTree = "<group>"; };
+		84D524741E77AEE2005A3AB4 /* ic_category.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_category.jpg; sourceTree = "<group>"; };
+		84D524751E77AEE2005A3AB4 /* ic_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_delete.png; sourceTree = "<group>"; };
+		84D524761E77AEE2005A3AB4 /* ic_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite.png; sourceTree = "<group>"; };
+		84D524771E77AEE2005A3AB4 /* ic_favorite_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_selected.png; sourceTree = "<group>"; };
+		84D524781E77AEE2005A3AB4 /* ic_fullsize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fullsize.png; sourceTree = "<group>"; };
+		84D524791E77AEE2005A3AB4 /* ic_fun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_fun.jpg; sourceTree = "<group>"; };
+		84D5247A1E77AEE2005A3AB4 /* ic_img_splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_img_splash_logo.png; sourceTree = "<group>"; };
+		84D5247B1E77AEE2005A3AB4 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		84D5247C1E77AEE2005A3AB4 /* ic_not_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_not_favorite.png; sourceTree = "<group>"; };
+		84D5247D1E77AEE2005A3AB4 /* ic_tabbar_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tabbar_category.png; sourceTree = "<group>"; };
+		84D5247E1E77AEE2005A3AB4 /* ic_tabbar_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tabbar_favorite.png; sourceTree = "<group>"; };
+		84D5247F1E77AEE2005A3AB4 /* ic_tabbar_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_tabbar_home.png; sourceTree = "<group>"; };
+		84D524801E77AEE2005A3AB4 /* khac.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khac.PNG; sourceTree = "<group>"; };
+		84D524811E77AEE2005A3AB4 /* khoahoc.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khoahoc.PNG; sourceTree = "<group>"; };
+		84D524821E77AEE2005A3AB4 /* nghenghiep.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nghenghiep.PNG; sourceTree = "<group>"; };
+		84D524831E77AEE2005A3AB4 /* nhahang.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nhahang.PNG; sourceTree = "<group>"; };
+		84D524841E77AEE2005A3AB4 /* sayxin.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sayxin.PNG; sourceTree = "<group>"; };
+		84D524851E77AEE2005A3AB4 /* tamquoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamquoc.png; sourceTree = "<group>"; };
+		84D524861E77AEE2005A3AB4 /* tho_ca.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tho_ca.PNG; sourceTree = "<group>"; };
+		84D524871E77AEE2005A3AB4 /* tieulam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tieulam.png; sourceTree = "<group>"; };
+		84D524881E77AEE2005A3AB4 /* tinhyeu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinhyeu.png; sourceTree = "<group>"; };
+		84D524891E77AEE2005A3AB4 /* tongiao.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongiao.PNG; sourceTree = "<group>"; };
+		84D5248A1E77AEE2005A3AB4 /* trangquynh.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trangquynh.PNG; sourceTree = "<group>"; };
+		84D5248B1E77AEE2005A3AB4 /* vova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vova.png; sourceTree = "<group>"; };
+		84D5248C1E77AEE2005A3AB4 /* yte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yte.png; sourceTree = "<group>"; };
+		9D21915E3E381FACE479AA1D /* Pods_FunnyStoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyStoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3107636332E535BF59B327A /* Pods-FunnyStoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStoryTests/Pods-FunnyStoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB568B8D1E6C516E00D5F76E /* FunnyStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB568B901E6C516E00D5F76E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB568B951E6C516E00D5F76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,8 +149,11 @@
 		BB568BC31E6C56F900D5F76E /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		BB568BC51E6C570600D5F76E /* FavouriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteController.swift; sourceTree = "<group>"; };
 		BB568BC71E6C571200D5F76E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		BB568BC91E6C57F800D5F76E /* FunnyPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunnyPrefix.pch; sourceTree = "<group>"; };
 		BB568BCB1E6C59C800D5F76E /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		BB568BCD1E6C62F500D5F76E /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		D1F4F6ABF0FC366F3A5437F2 /* Pods-FunnyStoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStoryTests/Pods-FunnyStoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDDACDDD3B04ECE8ECECA525 /* Pods-FunnyStoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyStoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunnyStoryUITests/Pods-FunnyStoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA8B794611ED092DB46729A /* Pods_FunnyStory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE027161FCB432920139740D /* Pods_FunnyStoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,19 +177,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45211868CA7192DA4AAA5872 /* Pods_FunnyStoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F56637FE005DA920D7FE89B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06E0C1B371CF6EA401BEF2DA /* Pods-FunnyStory.debug.xcconfig */,
+				253FB42AAF108B51A96A881B /* Pods-FunnyStory.release.xcconfig */,
+				D1F4F6ABF0FC366F3A5437F2 /* Pods-FunnyStoryTests.debug.xcconfig */,
+				B3107636332E535BF59B327A /* Pods-FunnyStoryTests.release.xcconfig */,
+				DDDACDDD3B04ECE8ECECA525 /* Pods-FunnyStoryUITests.debug.xcconfig */,
+				3BB960D02F1AE90C3FDC8BB3 /* Pods-FunnyStoryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		843824153F506686D804F727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FE8E1FEC5600214A4AD858 /* Pods_FunnyStory.framework */,
+				9D21915E3E381FACE479AA1D /* Pods_FunnyStoryTests.framework */,
+				2F1567A97B981878386EBB7B /* Pods_FunnyStoryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846A41F01E753FBC002D18F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				846A41F11E753FD5002D18F4 /* StoryModel.swift */,
+				846A41F91E7542DB002D18F4 /* CategoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84D5245F1E7782B1005A3AB4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84D524601E7782BD005A3AB4 /* DatabaseHelper.swift */,
+			);
+			name = Helper;
+			path = FunnyStory/Helper;
+			sourceTree = "<group>";
+		};
+		84D524621E7783E6005A3AB4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84D524691E77AEE2005A3AB4 /* image */,
+				84D524631E7783E6005A3AB4 /* Data */,
+			);
+			name = Resource;
+			path = FunnyStory/Resource;
+			sourceTree = "<group>";
+		};
+		84D524631E7783E6005A3AB4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84D524641E7783E6005A3AB4 /* truyencuoihay.db */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		84D524691E77AEE2005A3AB4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				84D5246A1E77AEE2005A3AB4 /* background_story.png */,
+				84D5246B1E77AEE2005A3AB4 /* congai.PNG */,
+				84D5246C1E77AEE2005A3AB4 /* congnghe.png */,
+				84D5246D1E77AEE2005A3AB4 /* congso.png */,
+				84D5246E1E77AEE2005A3AB4 /* contrai.PNG */,
+				84D5246F1E77AEE2005A3AB4 /* dangian.png */,
+				84D524701E77AEE2005A3AB4 /* doanhnhan.png */,
+				84D524711E77AEE2005A3AB4 /* giadinh.png */,
+				84D524721E77AEE2005A3AB4 /* giaothong.PNG */,
+				84D524731E77AEE2005A3AB4 /* hocsinh.png */,
+				84D524741E77AEE2005A3AB4 /* ic_category.jpg */,
+				84D524751E77AEE2005A3AB4 /* ic_delete.png */,
+				84D524761E77AEE2005A3AB4 /* ic_favorite.png */,
+				84D524771E77AEE2005A3AB4 /* ic_favorite_selected.png */,
+				84D524781E77AEE2005A3AB4 /* ic_fullsize.png */,
+				84D524791E77AEE2005A3AB4 /* ic_fun.jpg */,
+				84D5247A1E77AEE2005A3AB4 /* ic_img_splash_logo.png */,
+				84D5247B1E77AEE2005A3AB4 /* ic_launcher.png */,
+				84D5247C1E77AEE2005A3AB4 /* ic_not_favorite.png */,
+				84D5247D1E77AEE2005A3AB4 /* ic_tabbar_category.png */,
+				84D5247E1E77AEE2005A3AB4 /* ic_tabbar_favorite.png */,
+				84D5247F1E77AEE2005A3AB4 /* ic_tabbar_home.png */,
+				84D524801E77AEE2005A3AB4 /* khac.PNG */,
+				84D524811E77AEE2005A3AB4 /* khoahoc.PNG */,
+				84D524821E77AEE2005A3AB4 /* nghenghiep.PNG */,
+				84D524831E77AEE2005A3AB4 /* nhahang.PNG */,
+				84D524841E77AEE2005A3AB4 /* sayxin.PNG */,
+				84D524851E77AEE2005A3AB4 /* tamquoc.png */,
+				84D524861E77AEE2005A3AB4 /* tho_ca.PNG */,
+				84D524871E77AEE2005A3AB4 /* tieulam.png */,
+				84D524881E77AEE2005A3AB4 /* tinhyeu.png */,
+				84D524891E77AEE2005A3AB4 /* tongiao.PNG */,
+				84D5248A1E77AEE2005A3AB4 /* trangquynh.PNG */,
+				84D5248B1E77AEE2005A3AB4 /* vova.png */,
+				84D5248C1E77AEE2005A3AB4 /* yte.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		BB568B841E6C516E00D5F76E = {
 			isa = PBXGroup;
 			children = (
+				84D524621E7783E6005A3AB4 /* Resource */,
+				84D5245F1E7782B1005A3AB4 /* Helper */,
 				BB568B8F1E6C516E00D5F76E /* FunnyStory */,
 				BB568BA41E6C516E00D5F76E /* FunnyStoryTests */,
 				BB568BAF1E6C516E00D5F76E /* FunnyStoryUITests */,
 				BB568B8E1E6C516E00D5F76E /* Products */,
+				843824153F506686D804F727 /* Frameworks */,
+				7F56637FE005DA920D7FE89B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +312,7 @@
 		BB568B8F1E6C516E00D5F76E /* FunnyStory */ = {
 			isa = PBXGroup;
 			children = (
+				846A41F01E753FBC002D18F4 /* Models */,
 				BB568BCA1E6C59B900D5F76E /* Utils */,
 				BB568BC01E6C56D300D5F76E /* Cells */,
 				BB568BBF1E6C56CB00D5F76E /* View */,
@@ -125,6 +331,7 @@
 			children = (
 				BB568BA51E6C516E00D5F76E /* FunnyStoryTests.swift */,
 				BB568BA71E6C516E00D5F76E /* Info.plist */,
+				BB568BC91E6C57F800D5F76E /* FunnyPrefix.pch */,
 			);
 			path = FunnyStoryTests;
 			sourceTree = "<group>";
@@ -160,6 +367,9 @@
 		BB568BC01E6C56D300D5F76E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				846A41F31E75404D002D18F4 /* HomeCell.swift */,
+				846A41F71E75420A002D18F4 /* CategoryCell.swift */,
+				846A41FB1E7545AC002D18F4 /* FavouriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -179,9 +389,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB568BB51E6C516E00D5F76E /* Build configuration list for PBXNativeTarget "FunnyStory" */;
 			buildPhases = (
+				93214D1EB6ACA5854528C3C6 /* [CP] Check Pods Manifest.lock */,
 				BB568B891E6C516E00D5F76E /* Sources */,
 				BB568B8A1E6C516E00D5F76E /* Frameworks */,
 				BB568B8B1E6C516E00D5F76E /* Resources */,
+				295810201465FF7F37885D99 /* [CP] Embed Pods Frameworks */,
+				CFC3410ADCF3D3A51FA9E42E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +409,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB568BB81E6C516E00D5F76E /* Build configuration list for PBXNativeTarget "FunnyStoryTests" */;
 			buildPhases = (
+				A7D03687E20AE0B93E2CD626 /* [CP] Check Pods Manifest.lock */,
 				BB568B9D1E6C516E00D5F76E /* Sources */,
 				BB568B9E1E6C516E00D5F76E /* Frameworks */,
 				BB568B9F1E6C516E00D5F76E /* Resources */,
+				D2E10305FAA24C5540DDCB48 /* [CP] Embed Pods Frameworks */,
+				956634F1276B54676332F938 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB568BBB1E6C516E00D5F76E /* Build configuration list for PBXNativeTarget "FunnyStoryUITests" */;
 			buildPhases = (
+				D99085772DAB041778248E84 /* [CP] Check Pods Manifest.lock */,
 				BB568BA81E6C516E00D5F76E /* Sources */,
 				BB568BA91E6C516E00D5F76E /* Frameworks */,
 				BB568BAA1E6C516E00D5F76E /* Resources */,
+				5FDAE3072AD30BEF2939452E /* [CP] Copy Pods Resources */,
+				BBEAB6D7234B302452CA559B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,8 +501,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D5248E1E77AEE2005A3AB4 /* congai.PNG in Resources */,
+				84D524A31E77AEE2005A3AB4 /* khac.PNG in Resources */,
+				84D524931E77AEE2005A3AB4 /* doanhnhan.png in Resources */,
+				84D524A41E77AEE2005A3AB4 /* khoahoc.PNG in Resources */,
 				BB568B9B1E6C516E00D5F76E /* LaunchScreen.storyboard in Resources */,
+				84D524651E7783E6005A3AB4 /* truyencuoihay.db in Resources */,
+				84D524A21E77AEE2005A3AB4 /* ic_tabbar_home.png in Resources */,
+				84D524AC1E77AEE2005A3AB4 /* tongiao.PNG in Resources */,
+				84D5249A1E77AEE2005A3AB4 /* ic_favorite_selected.png in Resources */,
+				84D524A01E77AEE2005A3AB4 /* ic_tabbar_category.png in Resources */,
+				84D5249C1E77AEE2005A3AB4 /* ic_fun.jpg in Resources */,
+				84D524AD1E77AEE2005A3AB4 /* trangquynh.PNG in Resources */,
+				84D524AF1E77AEE2005A3AB4 /* yte.png in Resources */,
+				84D5248D1E77AEE2005A3AB4 /* background_story.png in Resources */,
+				84D5249E1E77AEE2005A3AB4 /* ic_launcher.png in Resources */,
+				84D5248F1E77AEE2005A3AB4 /* congnghe.png in Resources */,
+				84D5249D1E77AEE2005A3AB4 /* ic_img_splash_logo.png in Resources */,
+				84D524961E77AEE2005A3AB4 /* hocsinh.png in Resources */,
+				84D524A61E77AEE2005A3AB4 /* nhahang.PNG in Resources */,
+				84D524A71E77AEE2005A3AB4 /* sayxin.PNG in Resources */,
+				84D524951E77AEE2005A3AB4 /* giaothong.PNG in Resources */,
+				84D524A11E77AEE2005A3AB4 /* ic_tabbar_favorite.png in Resources */,
+				84D524941E77AEE2005A3AB4 /* giadinh.png in Resources */,
+				84D5249F1E77AEE2005A3AB4 /* ic_not_favorite.png in Resources */,
 				BB568B981E6C516E00D5F76E /* Assets.xcassets in Resources */,
+				84D524A51E77AEE2005A3AB4 /* nghenghiep.PNG in Resources */,
+				84D524971E77AEE2005A3AB4 /* ic_category.jpg in Resources */,
+				84D524A81E77AEE2005A3AB4 /* tamquoc.png in Resources */,
+				84D524911E77AEE2005A3AB4 /* contrai.PNG in Resources */,
+				84D524901E77AEE2005A3AB4 /* congso.png in Resources */,
+				84D524AB1E77AEE2005A3AB4 /* tinhyeu.png in Resources */,
+				84D524991E77AEE2005A3AB4 /* ic_favorite.png in Resources */,
+				84D524AE1E77AEE2005A3AB4 /* vova.png in Resources */,
+				84D524921E77AEE2005A3AB4 /* dangian.png in Resources */,
+				84D524AA1E77AEE2005A3AB4 /* tieulam.png in Resources */,
+				84D524A91E77AEE2005A3AB4 /* tho_ca.PNG in Resources */,
+				84D524981E77AEE2005A3AB4 /* ic_delete.png in Resources */,
+				84D5249B1E77AEE2005A3AB4 /* ic_fullsize.png in Resources */,
 				BB568B961E6C516E00D5F76E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +559,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		295810201465FF7F37885D99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStory/Pods-FunnyStory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDAE3072AD30BEF2939452E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStoryUITests/Pods-FunnyStoryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93214D1EB6ACA5854528C3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		956634F1276B54676332F938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStoryTests/Pods-FunnyStoryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D03687E20AE0B93E2CD626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEAB6D7234B302452CA559B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStoryUITests/Pods-FunnyStoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC3410ADCF3D3A51FA9E42E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStory/Pods-FunnyStory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E10305FAA24C5540DDCB48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunnyStoryTests/Pods-FunnyStoryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99085772DAB041778248E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB568B891E6C516E00D5F76E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -312,10 +705,16 @@
 				BB568BC21E6C56EC00D5F76E /* HomeController.swift in Sources */,
 				BB568BC61E6C570600D5F76E /* FavouriteController.swift in Sources */,
 				BB568B911E6C516E00D5F76E /* AppDelegate.swift in Sources */,
+				846A41F41E75404D002D18F4 /* HomeCell.swift in Sources */,
 				BB568BC81E6C571200D5F76E /* DetailController.swift in Sources */,
 				BB568BCC1E6C59C800D5F76E /* Define.swift in Sources */,
 				BB568BCE1E6C62F500D5F76E /* MainTabbarController.swift in Sources */,
+				846A41FC1E7545AC002D18F4 /* FavouriteCell.swift in Sources */,
+				846A41FA1E7542DB002D18F4 /* CategoryModel.swift in Sources */,
 				BB568BC41E6C56F900D5F76E /* CategoryController.swift in Sources */,
+				846A41F21E753FD5002D18F4 /* StoryModel.swift in Sources */,
+				846A41F81E75420A002D18F4 /* CategoryCell.swift in Sources */,
+				84D524611E7782BD005A3AB4 /* DatabaseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +864,7 @@
 		};
 		BB568BB61E6C516E00D5F76E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E0C1B371CF6EA401BEF2DA /* Pods-FunnyStory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK97QPFDMM;
@@ -473,13 +873,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eaglecs.studio.FunnyStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/duannguyen/Documents/MyProject/FunnyStory/FunnyStoryTests/FunnyPrefix.pch;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/admin/Desktop/SWIFT/testgit/testgit01/DemoFunny/FunnyStory/FunnyStoryTests/FunnyPrefix.pch;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BB568BB71E6C516E00D5F76E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253FB42AAF108B51A96A881B /* Pods-FunnyStory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK97QPFDMM;
@@ -488,13 +889,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eaglecs.studio.FunnyStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/duannguyen/Documents/MyProject/FunnyStory/FunnyStoryTests/FunnyPrefix.pch;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/admin/Desktop/SWIFT/testgit/testgit01/DemoFunny/FunnyStory/FunnyStoryTests/FunnyPrefix.pch;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		BB568BB91E6C516E00D5F76E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F4F6ABF0FC366F3A5437F2 /* Pods-FunnyStoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +912,7 @@
 		};
 		BB568BBA1E6C516E00D5F76E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3107636332E535BF59B327A /* Pods-FunnyStoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +928,7 @@
 		};
 		BB568BBC1E6C516E00D5F76E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDACDDD3B04ECE8ECECA525 /* Pods-FunnyStoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = TK97QPFDMM;
@@ -539,6 +943,7 @@
 		};
 		BB568BBD1E6C516E00D5F76E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB960D02F1AE90C3FDC8BB3 /* Pods-FunnyStoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = TK97QPFDMM;

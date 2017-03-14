@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FunnyStory' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FunnyStory
+  pod 'GRDB.swift'
+  
+  
+  
+  
+  target 'FunnyStoryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FunnyStoryUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
