@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let navigationController = window?.rootViewController as! UINavigationController
+//        let navigationController = window?.rootViewController as! UINavigationController
 //        navigationController.navigationBar.isTranslucent = false
         
         return true

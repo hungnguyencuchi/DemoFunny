@@ -10,9 +10,15 @@ import UIKit
 
 class DetailController: UIViewController {
 
+    @IBOutlet weak var btnBack: UIBarButtonItem!
+    @IBOutlet weak var lblText: UILabel!
+    var textlbl:String = ""
+    
+    var category: CategoryModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        lblText.text = textlbl
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +28,10 @@ class DetailController: UIViewController {
     }
     
 
+    @IBAction func backAction(_ sender: Any) {
+        
+        navigationController?.popViewController(animated: true)
+    }
     /*
     // MARK: - Navigation
 

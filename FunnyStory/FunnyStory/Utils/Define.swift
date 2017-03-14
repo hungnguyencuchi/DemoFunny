@@ -6,6 +6,8 @@
 //  Copyright © 2017 Duan Nguyen. All rights reserved.
 //
 
+import UIKit
+import Foundation
 
 let MyAppDelegate = UIApplication.shared.delegate as! AppDelegate
 let HOME_DIRECTORY = Bundle.main.resourcePath

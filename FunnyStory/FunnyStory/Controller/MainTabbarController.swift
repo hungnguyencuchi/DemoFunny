@@ -14,14 +14,7 @@ class MainTabbarController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        for nav in self.viewControllers! {
-     
-            let navigationController = nav as! UINavigationController
-            navigationController.navigationBar.barTintColor = UIColor.red
-            navigationController.navigationBar.tintColor = UIColor.red
-            navigationController.navigationBar.isTranslucent = false
-        }
+        UITabBar.appearance().tintColor = UIColor.red
     }
 
     override func didReceiveMemoryWarning() {
