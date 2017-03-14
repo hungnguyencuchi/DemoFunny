@@ -1,6 +1,0 @@
-framework module Pods_FunnyStory {
-  umbrella header "Pods-FunnyStory-umbrella.h"
-
-  export *
-  module * { export * }
-}
