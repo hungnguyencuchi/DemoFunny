@@ -1,12 +1,20 @@
 PODS:
   - GRDB.swift (0.102.0)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
 
 DEPENDENCIES:
   - GRDB.swift
+  - RealmSwift
 
 SPEC CHECKSUMS:
   GRDB.swift: d91023bca3912810d46a76ff5d1e1ac30da278e1
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
 
-PODFILE CHECKSUM: 6ec444f45df58e4e9761c00fc144467b58a22eba
+PODFILE CHECKSUM: f56fc97f3fbe1f0592b2f9cb9145862de91a2a4e
 
 COCOAPODS: 1.1.1
